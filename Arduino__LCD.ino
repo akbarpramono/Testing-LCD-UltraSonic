@@ -2,7 +2,7 @@
 #include<LiquidCrystal_I2C_Hangul.h>
 #include<Wire.h>
 
-LiquidCrystal_I2C_Hangul lcd(0x3F,16,2); //LCD 클래스 초기화
+LiquidCrystal_I2C_Hangul lcd(0x3F,16,2); 
 #define echoPin 13
 #define trigPin 12
 float reading;
